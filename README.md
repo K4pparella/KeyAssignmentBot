@@ -4,7 +4,7 @@ A Discord bot that manages and distributes keys to users through ephemeral messa
 
 ## Features
 
-- Distribute keys through ephemeral messages (only visible to the command sender)
+- Distribute keys
 - Store keys and claims in a MySQL database
 - Track which users claimed which keys
 - Admin command to add new keys
@@ -62,7 +62,7 @@ python bot.py
 
 ### Commands
 
-- `!key` - Get a key (sent via ephemeral message)
+- `!key` - Get a key
 - `!addkey <key>` - Add a new key to the database (admin only)
 
 ### Examples
